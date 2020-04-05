@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run up",
+    "start": "node server/index.js",
+    "start-server": "npm run up",
     "open": "open http://localhost:8080",
     "up": "nodemon server -watch server -watch public",
     "seed": "node seed.js"
