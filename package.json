@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
+    "start-server": "npm run up",
     "test": "jasmine",
-    "start": "npm run up",
     "open": "open http://localhost:8080",
     "up": "nodemon server -watch server -watch public",
     "seed": "node seed.js"
