@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "start-server": "npm run up",
+    "test": "jasmine",
     "open": "open http://localhost:8080",
     "up": "nodemon server -watch server -watch public",
     "seed": "node seed.js"
@@ -22,5 +22,8 @@
     "open": "^7.0.3",
     "path": "^0.12.7",
     "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
   }
 }
