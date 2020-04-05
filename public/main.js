@@ -1,10 +1,11 @@
 const Container = function(){
-    this.cardFooter = document.getElementsByClassName('card-footer')[0]
+    this.cardFooter = $('.card-footer')
     this.cardDetail = $('.card-detail')
     this.projects = $('.projects')
     this.template = $('.template')
     this.open = '198px'
     this.close = '177px'
+    return this
 }
 
 Container.prototype.initializeEventListeners = function(){
@@ -16,6 +17,7 @@ Container.prototype.initializeEventListeners = function(){
     self.cardFooter.addEventListener('mouseleave', function(){
         self.toggle.call(self, 'close')
     })
+    return self
 }
 
 Container.prototype.toggle = function(type){
@@ -35,19 +37,21 @@ Container.prototype.toggle = function(type){
                 }, 100);
             }, 750)
     }
+    return this
 }
 
 Container.prototype.fetchAndDisplayProjects = async function(){
-    this.factory = new Factory()
-    const response = await axios.get('/api/data-control/projects')
-    if(response){
-        this.factory.constructProject(this.projects, response.data)
+    try{
+        const response = await axios.get('/api/data-control/projects')
+        if(response){
+            new Factory(this.projects).construct(response.data)
+        }
+    } catch(error){
+        console.log('Error on fetchAndDisplayProjects: ', error);
     }
-
+    return this
 }
 
 window.onload = function(){
-    const container = new Container()
-    // container.initializeEventListeners()
-    container.fetchAndDisplayProjects()
+    const container = new Container().fetchAndDisplayProjects()
 }
