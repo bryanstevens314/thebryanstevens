@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/thebryan/public_html
     - /bin/cp -R dist $DEPLOYPATH
     - /bin/cp -R server $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH

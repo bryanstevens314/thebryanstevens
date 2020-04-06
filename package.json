@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "start-server": "npm run up",
+    "deploy": "script/deploy",
     "test": "jasmine",
     "open": "open http://localhost:8080",
     "up": "nodemon server -watch server -watch public",
