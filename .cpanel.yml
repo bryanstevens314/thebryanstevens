@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/thebryan/www
-    - /bin/cp -r public* $DEPLOYPATH
+    - /bin/cp -r public/* $DEPLOYPATH
