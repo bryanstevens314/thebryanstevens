@@ -1,4 +1,5 @@
 require('dotenv').config()
+const isDev = process.env.NODE_ENV === 'development'
 const path = require('path');
 const open = require('open');
 const express = require('express');
@@ -29,9 +30,10 @@ app.use((req, res, next) =>
 );
 
 // send index.html
-app.use('*', (req, res, next) =>
-  res.sendFile(path.join(__dirname, '..', 'public/index.html'))
-);
+app.use('*', (req, res, next) =>{
+  const htmlPath = isDev ? 'public' : 'dist'
+  res.sendFile(path.join(__dirname, '..', `${htmlPath}/index.html`))
+});
 
 // error handling endware
 app.use((err, req, res, next) =>
