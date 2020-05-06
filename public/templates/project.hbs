@@ -1,0 +1,16 @@
+<script id="project" type="text/x-handlebars-template">
+    <div class="card text-center shadow">
+        <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{item.description}}</p>
+        </div>
+        {{#if item.image.length }}
+            <div style="height: 175px;background-image: url('{{item.image}}');background-size: 100%;background-position: center;"></div>
+        {{/if}}
+        <div class="card-footer text-muted d-flex flex-column">
+            {{ item.year }}
+            <a href="{{item.href}}" class="btn btn-primary m-2"  target="_blank">View</a>
+        </div>
+    </div>    
+</script>
+        

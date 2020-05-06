@@ -53,5 +53,11 @@ Container.prototype.fetchAndDisplayProjects = async function(){
 }
 
 window.onload = function(){
-    const container = new Container().fetchAndDisplayProjects()
+    // Retrieve the template data from the HTML (jQuery is used here).
+    var template = $('#about_me');
+    $.get('templates/about_me.hbs', function (data) {
+        var template=Handlebars.compile($(data).html());
+        $('#main').prepend(template());
+        const container = new Container().fetchAndDisplayProjects()
+    }, 'html')
 }
