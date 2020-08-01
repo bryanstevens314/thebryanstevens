@@ -9,6 +9,7 @@
     "deploy": "script/deploy",
     "test": "jasmine",
     "open": "open http://localhost:8080",
+    "compile": "sass resources/sass/main.scss public/assets/css/compiled.css",
     "up": "nodemon server -watch server -watch public",
     "seed": "node seed.js"
   },
@@ -18,14 +19,24 @@
   "dependencies": {
     "axios": "^0.19.2",
     "clean-webpack-plugin": "^3.0.0",
+    "compression": "^1.7.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-subdomain": "^1.0.5",
+    "handlebars": "^4.7.6",
+    "helmet": "^3.23.3",
     "html-webpack-plugin": "^4.0.4",
+    "ipware": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
     "open": "^7.0.3",
     "path": "^0.12.7",
-    "sequelize": "^5.21.5"
+    "request": "^2.88.2",
+    "sequelize": "^5.21.5",
+    "vhost": "^3.0.2"
   },
   "devDependencies": {
     "jasmine": "^3.5.0",
