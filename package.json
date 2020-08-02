@@ -29,7 +29,7 @@
     "html-webpack-plugin": "^4.0.4",
     "ipware": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "log4js": "^6.3.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
