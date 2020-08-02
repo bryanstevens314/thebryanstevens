@@ -1,6 +1,8 @@
-const path = require('path');
-require('dotenv').config({ path: path.join(__dirname, '..', '/.env') })
 const isDev = process.env.NODE_ENV === 'development'
+const path = require('path');
+if(isDev){
+  require('dotenv').config({ path: path.join(__dirname, '..', '/.env') })
+}
 const subdomain = require('express-subdomain');
 const morgan = require('morgan')
 const compression = require('compression')
