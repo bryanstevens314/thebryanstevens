@@ -1,4 +1,4 @@
-const Log = require('../Log.js')
+const Log = require('../logger.js')
 const router = require('express').Router()
 module.exports = router
 
