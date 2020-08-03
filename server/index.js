@@ -1,17 +1,12 @@
 const logger = require('./logger')
 try{
-  const isDev = process.env.NODE_ENV === 'development'
+  const isDev = process.env.NODE_ENV !== 'production'
   const path = require('path');
-  if(isDev){
-    require('dotenv').config({ path: path.join(__dirname, '..', '/.env') })
-  }
+  if(isDev){ require('dotenv').config({ path: path.join(__dirname, '..', '/.env') }) }
   const subdomain = require('express-subdomain');
   const morgan = require('morgan')
   const compression = require('compression')
   const helmet = require('helmet')
-  var vhost = require('vhost');
-  const open = require('open');
-  const https = require('https');
   const fs = require('fs');
   const TDAmeritrade = require('./libs/TDAmeritrade');
   const express = require('express');
@@ -24,7 +19,7 @@ try{
 
   module.exports = app;
 
-  app.use(morgan('dev'))
+  app.use(morgan(isDev ? 'dev' : 'common'))
   app.use(helmet())
 
   // body parsing middleware
@@ -57,9 +52,10 @@ try{
   );
 
   // error handling endware
-  app.use((err, req, res, next) =>
+  app.use((err, req, res, next) =>{
+    logger.debug(err)
     res.status(err.status || 500).send(err.message || 'Internal server error.')
-  );
+  });
   // https.createServer(optio÷ns, app);
   const server = app.listen(PORT, () => {
     console.log(`Feeling chatty on port ${PORT}`)

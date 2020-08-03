@@ -1,0 +1,229 @@
+[2020-08-02T19:52:13.169] [DEBUG] default - Error: Cannot find module '../../Hacking_Playlists/server/hacked-playlists.thebryanstevens.com.js'
+Require stack:
+- /Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js:35:43)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js'
+  ]
+}
+[2020-08-02T19:52:32.291] [DEBUG] default - Error: Cannot find module '../../Hacking_Playlists/server/hacked-playlists.thebryanstevens.com.js'
+Require stack:
+- /Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js:35:43)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/bryanstevens/Documents/projects/thebryanstevens/server/index.js'
+  ]
+}
+[2020-08-02T19:59:01.925] [DEBUG] default - TypeError: Cannot read property 'privateKey' of undefined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/authorize/index.js:29:58
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:47:12)
+[2020-08-02T20:51:03.855] [DEBUG] default - /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/content.js:67
+      }
+      ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+[2020-08-02T20:52:05.244] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T20:53:40.155] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T20:54:55.384] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T20:56:01.878] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T20:57:44.077] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T20:59:50.653] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:25:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:00:57.125] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:01:26.293] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:25:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:03:38.175] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:25:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:05:19.462] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:25:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:06:07.483] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:06:39.272] [DEBUG] default - ReferenceError: google is not defined
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:24:23
+    at new Promise (<anonymous>)
+    at User.getUserInfo (/Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/youtube/user.js:23:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:7:29
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bryanstevens/Documents/projects/Hacking_Playlists/node_modules/express/lib/router/index.js:335:12)
+[2020-08-02T21:07:41.347] [DEBUG] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:170:12)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2020-08-02T21:09:35.687] [DEBUG] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:145:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2020-08-02T21:11:18.904] [DEBUG] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:145:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2020-08-02T21:13:49.030] [DEBUG] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/bryanstevens/Documents/projects/thebryanstevens/node_modules/express/lib/response.js:145:14)
+    at /Users/bryanstevens/Documents/projects/Hacking_Playlists/server/api/user/index.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
