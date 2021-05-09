@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "express-subdomain": "^1.0.5",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "helmet": "^3.23.3",
     "html-webpack-plugin": "^4.0.4",
     "ipware": "^2.0.0",
